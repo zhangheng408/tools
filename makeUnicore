@@ -1,0 +1,24 @@
+ 1007  cp arch/unicore/configs/30042_1.3_defconfig .config
+ 1008  make menuconfig
+ 1009  make -j16
+ 1010  make -j16 > /dev/null 
+ 1011  cp arch/unicore/configs/30042_1.3_defconfig .configgit log
+ 1012  git log
+ 1013  echo $ARCH
+ 1014  export ARCH=unicore
+ 1015  make -j16 > /dev/null 
+ 1016  cp arch/unicore/configs/30042_1.3_defconfig .config
+ 1017  make menuconfig
+ 1018  make uIMage -j 4
+ 1019  make uImage -j 4
+ 1020  ls
+ 1021  ls
+ 1022  vi /home/ZhangJun/.bash_profile 
+ 1023  cat /home/ZhangJun/.bash_profile 
+ 1024  export PATH=$PATH:/usr/unicore/gnu-toolchain-unicore/uc4/bin/
+ 1025  make menuconfig
+ 1026  make uImage -j 4
+ 1027  make distclean
+ 1028  cp arch/unicore/configs/30042_1.3_defconfig .config
+ 1029  make menuconfig
+ 1030  make uImage -j 4
