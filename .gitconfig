@@ -1,0 +1,37 @@
+[user]
+	name = zhangheng
+	email = zhangheng@my.com
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = auto
+	ui = true
+	pager = true
+[alias]
+	ci = commit
+	co = checkout
+	ck = checkout -p
+	cp = checkout -p
+	cl = reset --hard
+	ls = log --oneline
+	br = branch
+	st = status
+	sh = show
+	df = diff
+	di = diff
+	ds = diff --staged
+	dc = diff --cached
+	lg = log -p
+	l1 = log --oneline -n10
+[core]
+	editor = vim
+	quotepath = false
+[push]
+	default = simple
+[gui]
+	encoding = utf-8
+[i18n "commit"]
+	encoding = utf-8
+[i18n]
+	logoutputencoding = utf-8
